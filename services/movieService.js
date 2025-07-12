@@ -4,7 +4,7 @@ class MovieService {
       "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1ZTFkN2RlOWZkYjUzODhjNTE2NThlNDg3MTQ2ZDc2ZiIsIm5iZiI6MTc1MDY5MTg1OC43MDIwMDAxLCJzdWIiOiI2ODU5NzAxMjRmMWZlOGMwODI2YmE2ZDciLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.cKSOUSzQ-ykD6_1OOcYzfJEPFRHbTsafMcCJZ6EHtD0"
     this.OMDB_API_KEY = "8b8d7f8e" 
     this.TMDB_BASE_URL = "https://api.themoviedb.org/3"
-    this.OMDB_BASE_URL = "https://www.omdbapi.com"
+    this.OMDB_BASE_URL = " http://www.omdbapi.com/?i=tt3896198&apikey=8b8d7f8e"
     this.cache = new Map()
     this.requestQueue = []
     this.isProcessingQueue = false
